@@ -50,3 +50,14 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+<!-- Start of my README -->
+Lori Timmons 
+
+Week 2: Advanced CSS - Portfolio
+
+Project Description: This project is designed to create a working portfolio for Lori Timmons to be submitted for review to potential employers. 
+
+Deployed Application URL:
+
+Repo URL: 
