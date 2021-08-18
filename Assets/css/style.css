@@ -1,27 +1,31 @@
-/* CSS Qs: is this standard? and how do I space in CSS🚫*/
-* {
+/* add media quiries and flex for mobil responsiveness, do at the end */
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
 
 body {
     background-color: white;
 }
 
 header {
-    padding 20px;
+    padding: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #43576b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
+
 header h1 {
-    display: inline-block
-    font-size: 48px
+    display: inline-block;
+    font-size: 48px;
     color:white;
 }
 
-/* need to adjust padding between text */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,32 +36,29 @@ header nav {
   /* need to adjust padding between text - how */
   header nav ul li {
     display: inline;
+    margin-right: 50px;
   }
   
 header nav ul {
     list-style-type: none;
 }
 
-/* take live when I fix header nav section. Do I need this? */
-
-/* header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-} */
-
 header a {
     text-decoration: none;
     color:white;
 }
 /* hero styling */
-.hero {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: 
-    background-size: cover;
-    background-position: center;
-  }
+
+/* update
+ */
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+}
+/* .avatar img {
+    display flex
+} */
 
 /* content styling */
 /* .content {
