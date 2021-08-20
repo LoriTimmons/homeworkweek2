@@ -54,34 +54,35 @@ header a {
 img {
     width: 500px;
     height: 400px;
+    /* padding: 500; */
     
 }
 
 .hero h2 {
-    padding: 15px;
-    margin: 25px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: pink;
-    display: inline-block;
-    
+  color: pink; 
+  padding: 25px;
 }
 
 .hero {
-    width: 500px;
-    padding: 15px;
+    /* padding: 0px 300px; */
     margin: 0px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:green;
     display: flex;
     justify-content: space-between;
-    display: inline-flex;
-}
-
-.hero2 {
     display: inline-block;
+    color: white;
+    align-items: center;
+   
 }
 
-/* content styling */
+.hero p {
+    display: inline-block;
+    padding: 50px;
+    align-items: center;
+
+
+    /* content styling */
 /* .content {
     width: 75px;
     display: inline-block;
