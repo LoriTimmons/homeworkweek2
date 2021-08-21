@@ -61,3 +61,7 @@ Project Description: This project is designed to create a working portfolio for 
 Deployed Application URL:
 
 Repo URL: 
+
+Credit: Placeholder.com
+
+C/O https://placeholder.com/rules/
