@@ -141,6 +141,10 @@ Need to update
    background-color:#fce138 ;  
 }
 
+.overlay-title1:hover {
+    color: #fce138;
+  background: black;
+}
     
 /* Add back in if overlay does not work */
 /* #project1-img {
