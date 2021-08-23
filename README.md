@@ -7,8 +7,8 @@ Week 2
 Project Description:
 I have created a responsive online portfolio 
 
-![Screen shot 1](assets/images/screenshot1.png)
-![screen shot 2](assets/images/screenshot2.png)
+![Screen shot 1]((assetss/images/screenshot1.png))
+![screen shot 2](assetss/images/screenshot2.png)
 
 Links: 
 URL to deployed application: https://loritimmons.github.io/homeworkweek2/
