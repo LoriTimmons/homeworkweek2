@@ -11,7 +11,7 @@ I have created a responsive online portfolio
 ![screen shot 2](assets/images/screenshot2.png)
 
 Links: 
-URL to deployed application: https://github.com/LoriTimmons/homeworkweek2
+URL to deployed application: https://loritimmons.github.io/homeworkweek2/
 <div>
-The URL of the GitHub repository: https://loritimmons.github.io/homeworkweek2/
+The URL of the GitHub repository: https://github.com/LoriTimmons/homeworkweek2
 </div>
