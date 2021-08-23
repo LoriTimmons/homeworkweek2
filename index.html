@@ -2,7 +2,7 @@
 <html lang="en"> 
     <head> 
         <meta charset="UTF -8">
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel= "stylesheet" href="./assets/css/style.css">
         <!-- See if I need this meta tag: this might look weird at first see lesson 2.3.4 -->
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <title>Lori Timmons - Portfolio</title>
@@ -21,13 +21,13 @@
                     <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#work">Work</a>
+                    <a href="#work">Projects</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
                 </li>
                 <li>
                     <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="resume">Resume</a>
                 </li>
             </ul>
         </nav>
@@ -46,40 +46,44 @@
     </div>
     <!-- content -->
     <section class="content"> 
-<!-- about me - Add ID and Class to sections div and float -->
       <div id="about-me" class="about-me">
-            <h3>Me</h3>
+            <h2>Me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero commodi autem ab ullam hic suscipit, facere quisquam. Exercitationem consectetur quia incidunt adipisci beatae obcaecati ipsa est aliquam, deserunt quo.</p>
-        </div> -->
+        </div> 
+        <hr>
 <!-- Work -->
-        <div id="work" class="main-content">
+    <h2>Projects</h2>
+        <div id="work">
+            <div class="project1">
+            <a href="https://loritimmons.github.io/run-buddy/"> <h3>Run Buddy</h3> </a>
             <div>
-            <h3>Projects</h3>
+                <img id="project1-img" src="./assets/images/Run-Buddy.png" alt="Run Buddy Website Image">
             </div>
-            <div class= "main-content-box">
-                <div class= "main-content-image">
-                <a href="https://loritimmons.github.io/run-buddy/">Run Buddy</a>
+            </div>
             </div>
         </div>
-    
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta cupiditate culpa ab corrupti doloremque nihil iusto dolores magni? Placeat consequuntur eveniet similique suscipit earum veritatis facilis itaque animi laudantium!</p>
-            <div>Run Buddy</div>
+    <div class="project2-3">
+            <div class="project2">
+                <h3>Project Two</h3>
+                <img class= "project2-img" src="http://via.placeholder.com/640x360">
+            </div>
+            <div class="project3">
+                <h3>Project 3</h3>
+                <img class= "project3-img" src="http://via.placeholder.com/640x360">
+            </div>
         </div>
-<!-- Contact Me -->
-        <div id="contact-me" class="contact-me">
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusamus esse voluptates aspernatur eveniet fuga, quas suscipit accusantium quam earum repudiandae est minus reprehenderit error sapiente illum! Alias, amet adipisci!</p>
         </div>
+        <hr>
 <!-- Resume -->
-<!-- link providing an error 🚫 -->
         <div id="resume" class="resume">
             <h2>Resume</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo ea omnis error suscipit tempore, numquam a earum fugit sit non totam quam nemo veniam iure autem perspiciatis temporibus voluptatum tenetur!</p>
         </div>
+        <hr>
 </section>
 
 <!-- footer not working with Css -->
-<footer>
+<footer id="contact-me">
     <h3>Lori Timmons</h3>
     <div>
         lorietimmons@gmail.com - 555.345.8820
