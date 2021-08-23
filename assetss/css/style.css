@@ -109,25 +109,45 @@ Need to update
     background-color: var(--tertiary-color);
 }
 
-.main-content-box {
-    background-color:var(--tertiary-color);
-}
 .project1 a {
     text-decoration: none;
     color: var(--header-color);
+    
+}
+
+.overlay-title1 a {
+    text-decoration: none;
 }
 
 .project1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: wrap; 
+    justify-content: center;  
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fce138;
 }
 
-#project1-img {
-    width: 800px;
-    height: 500px;
-    margin-right: auto;
+.overlay-title1 {
+    display: flex;
+   flex-wrap: wrap;
+   position: absolute;
+   left: 0px;
+   top: 130px;
+   width: 20;
+   background-color:#fce138 ;  
 }
+
+    
+/* Add back in if overlay does not work */
+/* #project1-img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+} */
 
 .project2-3 {
     display: flex;
@@ -182,14 +202,11 @@ footer {
         font-size: 15px;
       } 
     
-      /* Update */
+  /* Update */
     /* MQ for Tablet / smaller
     @media screen and (max-width: 768px) {
       
-    }
-    
+    } */
+/*     
     MQ for mobile and smaller
-    @media screen (max-width: 575px) {
-     
-    } */ */
-    
+    @media screen (max-width: 575px)  */

@@ -109,9 +109,6 @@ Need to update
     background-color: var(--tertiary-color);
 }
 
-.main-content-box {
-    background-color:var(--tertiary-color);
-}
 .project1 a {
     text-decoration: none;
     color: var(--header-color);
@@ -120,15 +117,28 @@ Need to update
 
 .project1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#project1-img {
-    width: 800px;
-    height: 500px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
     margin-right: auto;
 }
+
+.overlay-title1 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    color: white;
+    background-color: lightgray;
+}
+/* Add back in if overlay does not work */
+/* #project1-img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+} */
 
 .project2-3 {
     display: flex;
@@ -183,11 +193,11 @@ footer {
         font-size: 15px;
       } 
     
-      /* Update
-    MQ for Tablet / smaller
+  /* Update */
+    /* MQ for Tablet / smaller
     @media screen and (max-width: 768px) {
       
-    }
-    
+    } */
+/*     
     MQ for mobile and smaller
-    @media screen (max-width: 575px) {} */
+    @media screen (max-width: 575px)  */
