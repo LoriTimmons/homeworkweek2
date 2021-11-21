@@ -115,24 +115,37 @@ Need to update
     
 }
 
+.overlay-title1 a {
+    text-decoration: none;
+}
+
 .project1 {
     display: flex;
     flex-wrap: wrap; 
-    justify-content: center; 
+    justify-content: center;  
     position: relative;
     width: 400px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    color: #fce138;
 }
 
 .overlay-title1 {
-    position: absolute;
-    top: 0px;
-    left: 30px;
-    color: white;
-    background-color: lightgray;
+    display: flex;
+   flex-wrap: wrap;
+   position: absolute;
+   left: 0px;
+   top: 130px;
+   width: 20;
+   background-color:#fce138 ;  
 }
+
+.overlay-title1:hover {
+    color: #fce138;
+  background: black;
+}
+    
 /* Add back in if overlay does not work */
 /* #project1-img {
     width: 100%;
